@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+	<!-- <script type="text/javascript" src="script.js"> </script> -->
+	<script type="text/javascript" src="script_jquery.js"> </script>
+    
+</head>
+<body>
+
+<div class="container">
+      <form id="msform">
+	         <ul id="progressbar">
+			     <li class="active"> Account </li>
+			     <li> Social Profile </li>
+			     <li> Personal Details </li>
+			 </ul>
+			 <fieldset>
+			      <h2 class="fs-title"> Create you Account </h2>
+				  <h3 class="fs-subtitle"> This is Step 1 </h3>
+				  <input type="text" name="email" placeholder="Email" />
+				  <input type="password" name="pass" placeholder="Password" />
+				  <input type="password" name="cpass" placeholder="Confirm Password" />
+			      <input type="button" name="next" value="Next" id="next" class="next action-button" /> 
+			 </fieldset>
+			 <fieldset>
+			      <h2 class="fs-title"> Social Profile </h2>
+				  <h3 class="fs-subtitle"> This is Step 2 </h3>
+				  <input type="text" name="twitter" placeholder="Twitter" />
+                  <input type="text" name="facebook" placeholder="Facebook">    				  
+                  <input type="text" name="gplus" placeholder="Google Plus">    				  
+				  
+				  <input type="button" name="previous" value="Previous" class="previous action-button" /> 
+			      <input type="button" name="next" value="Next" class="next action-button" /> 
+			 </fieldset>
+			 <fieldset>
+			      <h2 class="fs-title"> Personal Details </h2>
+				  <h3 class="fs-subtitle"> We will never sell it </h3>
+				  <input type="text" name="fname" placeholder="First Name" />
+                  <input type="text" name="lname" placeholder="Last Name" />    				  
+                  <input type="text" name="phone" placeholder="Phone" /> 				  
+				  <textarea name="address" placeholder="Address" > </textarea>
+				  
+				  <input type="button" name="previous" value="Previous" class="previous action-button" /> 
+			      <input type="button" name="submit" value="Submit" class="submit action-button" /> 
+			 </fieldset>
+	  </form>
+</div>
+
+</body>
+</html>
